@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="작화실설정" Height="350" Width="525" KeyDown="Window_KeyDown" ResizeMode="NoResize">
+    <Grid>
+        <Button x:Name="bt_set" Content="설정" Margin="10,190,10,0" VerticalAlignment="Top" Click="bt_set_Click" Height="47" FontSize="20" TabIndex="4"/>
+        <TextBox x:Name="tb_grade" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Margin="95,126,384,0" TabIndex="0" TextChanged="tb_grade_TextChanged" MaxLength="1"/>
+        <TextBlock TextWrapping="Wrap" VerticalAlignment="Top" Margin="164,127,311,0" Height="40" FontSize="13"><Run Text="학년"/><LineBreak/><Run/></TextBlock>
+        <TextBlock TextWrapping="Wrap" VerticalAlignment="Top" Margin="313,127,167,0" FontSize="13" Height="40"><Run Text="반"/><LineBreak/><Run/></TextBlock>
+        <TextBox x:Name="tb_class" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Margin="239,126,240,0" TabIndex="1" TextChanged="tb_class_TextChanged" MaxLength="1" KeyUp="tb_class_KeyUp"/>
+        <TextBlock TextWrapping="Wrap" VerticalAlignment="Top" Margin="427,127,50,0" FontSize="13" Height="40"><Run Text="번"/><LineBreak/><Run/></TextBlock>
+        <TextBox x:Name="tb_number" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Margin="357,126,122,0" TabIndex="2" MaxLength="2" KeyUp="tb_number_KeyUp" KeyDown="tb_number_keyDown"/>
+        <Button Content="초기화" Margin="10,264,10,10" FontSize="20" Click="Button_Click"/>
+
+    </Grid>
+</Window>
