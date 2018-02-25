@@ -1,0 +1,14 @@
+D:\Source\KAHS_IP_SETTER\Project\IPSetter\bin\Debug\IPSetter.exe.config
+D:\Source\KAHS_IP_SETTER\Project\IPSetter\bin\Debug\IPSetter.exe
+D:\Source\KAHS_IP_SETTER\Project\IPSetter\bin\Debug\IPSetter.pdb
+D:\Source\KAHS_IP_SETTER\Project\IPSetter\obj\Debug\MainWindow.g.cs
+D:\Source\KAHS_IP_SETTER\Project\IPSetter\obj\Debug\App.g.cs
+D:\Source\KAHS_IP_SETTER\Project\IPSetter\obj\Debug\IPSetter_MarkupCompile.cache
+D:\Source\KAHS_IP_SETTER\Project\IPSetter\obj\Debug\IPSetter_MarkupCompile.lref
+D:\Source\KAHS_IP_SETTER\Project\IPSetter\obj\Debug\MainWindow.baml
+D:\Source\KAHS_IP_SETTER\Project\IPSetter\obj\Debug\IPSetter.g.resources
+D:\Source\KAHS_IP_SETTER\Project\IPSetter\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\Source\KAHS_IP_SETTER\Project\IPSetter\obj\Debug\IPSetter.csproj.GenerateResource.Cache
+D:\Source\KAHS_IP_SETTER\Project\IPSetter\obj\Debug\IPSetter.csproj.CoreCompileInputs.cache
+D:\Source\KAHS_IP_SETTER\Project\IPSetter\obj\Debug\IPSetter.exe
+D:\Source\KAHS_IP_SETTER\Project\IPSetter\obj\Debug\IPSetter.pdb
