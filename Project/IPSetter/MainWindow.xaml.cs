@@ -135,20 +135,6 @@ namespace WpfApp1
                 tb_number.Focus();
         }
 
-        private void tb_class_KeyUp(object sender, KeyEventArgs e)
-        {
-            
-        }
-
-        private void tb_number_KeyUp(object sender, KeyEventArgs e)
-        {
-          
-        }
-
-        private void tb_number_keyDown(object sender, KeyEventArgs e)
-        {
-        }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             var mos = new ManagementClass("Win32_NetworkAdapterConfiguration");

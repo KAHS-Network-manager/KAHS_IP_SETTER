@@ -11,9 +11,9 @@
         <TextBox x:Name="tb_grade" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Margin="95,126,384,0" TabIndex="0" TextChanged="tb_grade_TextChanged" MaxLength="1"/>
         <TextBlock TextWrapping="Wrap" VerticalAlignment="Top" Margin="164,127,311,0" Height="40" FontSize="13"><Run Text="학년"/><LineBreak/><Run/></TextBlock>
         <TextBlock TextWrapping="Wrap" VerticalAlignment="Top" Margin="313,127,167,0" FontSize="13" Height="40"><Run Text="반"/><LineBreak/><Run/></TextBlock>
-        <TextBox x:Name="tb_class" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Margin="239,126,240,0" TabIndex="1" TextChanged="tb_class_TextChanged" MaxLength="1" KeyUp="tb_class_KeyUp"/>
+        <TextBox x:Name="tb_class" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Margin="239,126,240,0" TabIndex="1" TextChanged="tb_class_TextChanged" MaxLength="1"/>
         <TextBlock TextWrapping="Wrap" VerticalAlignment="Top" Margin="427,127,50,0" FontSize="13" Height="40"><Run Text="번"/><LineBreak/><Run/></TextBlock>
-        <TextBox x:Name="tb_number" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Margin="357,126,122,0" TabIndex="2" MaxLength="2" KeyUp="tb_number_KeyUp" KeyDown="tb_number_keyDown"/>
+        <TextBox x:Name="tb_number" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Margin="357,126,122,0" TabIndex="2" MaxLength="2"/>
         <Button Content="초기화" Margin="10,264,10,10" FontSize="20" Click="Button_Click"/>
 
     </Grid>
