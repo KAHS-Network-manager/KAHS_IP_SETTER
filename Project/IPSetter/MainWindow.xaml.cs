@@ -140,7 +140,7 @@ namespace WpfApp1
             var mos = new ManagementClass("Win32_NetworkAdapterConfiguration");
             var moc = mos.GetInstances();
 
-            bool isSet = false;
+            var isSet = false;
 
             foreach (var o in moc)
             {
